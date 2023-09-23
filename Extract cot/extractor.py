@@ -84,6 +84,9 @@ for symbol in acoes_brasileiras:
     except Exception as e:
         print(f"Erro ao obter os dados da ação {symbol}: {str(e)}")
 
+# Teste de linha
+print("abc")
+
 dados_acoes = pd.DataFrame(resultados)
 print(dados_acoes)
 
